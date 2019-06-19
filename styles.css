@@ -1,0 +1,46 @@
+
+/* app css stylesheet */
+
+
+.title {
+    width: 100%;
+
+}
+
+.card {
+    width: 1.63vw;
+    height: 3vw;
+    border: 1px solid black;
+}
+
+.symbol {
+    width: 3vw;
+    height: 3vw;
+}
+
+.btnShuffle {
+
+    font-size: 12px;
+    margin: 1vw;
+    background: #b3d4fc;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    padding: 13px 17px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.btnReset {
+
+    font-size: 12px;
+    margin: 1vw;
+    background: crimson;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    padding: 13px 17px;
+    border: none;
+    border-radius: 10px;
+}
