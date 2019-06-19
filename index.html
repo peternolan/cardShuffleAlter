@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alternative Angular APP</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app = "ShuffleDeck" ng-controller = "shuffleController">
+<h1 class="title">
+    Card Shuffle Application <img class = "symbol" alt="Symbol" src="content/symbols.jpg">
+</h1>
+
+<div class="deckArea">
+    <button class="btnShuffle" data-ng-click="shuffle()">SHUFFLE</button>
+    <button class="btnReset" data-ng-click="origDeck()">Reset</button>
+    <hr>
+    <br />
+    <span class="span3 card" ng-repeat="card in cardList">
+    <img class = "card" alt="Card" src={{card.Card.imgSrc}}>
+  </span>
+</div>
+
+</body>
+</html>
