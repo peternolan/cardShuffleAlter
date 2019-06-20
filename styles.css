@@ -7,15 +7,27 @@
 
 }
 
+.cardIndex {
+    text-align: center;
+    display: table;
+}
+
 .card {
-    width: 1.63vw;
-    height: 3vw;
+    width: 3.4vw;
+    height: 7vw;
     border: 1px solid black;
+}
+
+.cardArea {
+    float: left;
+    padding: 2px;
 }
 
 .symbol {
     width: 3vw;
     height: 3vw;
+    alignment: center;
+
 }
 
 .btnShuffle {
