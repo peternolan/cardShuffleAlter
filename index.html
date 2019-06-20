@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Alternative Angular APP</title>
+    <title>Card Shuffle Application App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
     <script src="app.js"></script>
     <script src="controllers.js"></script>
@@ -15,8 +15,8 @@
 </h1>
 
 <div class="deckArea">
-    <button class="btnShuffle" data-ng-click="shuffle()">SHUFFLE</button>
-    <button class="btnReset" data-ng-click="origDeck()">Reset</button>
+    <button id = "shuffleButton" class="btnShuffle" data-ng-click="shuffle()">SHUFFLE</button>
+    <button id = "resetButton" class="btnReset" data-ng-click="origDeck()">Reset</button>
     <hr>
     <br />
     <div class="cardArea" ng-repeat="card in cardList">
@@ -24,6 +24,7 @@
         <img class = "card" alt="Card" src={{card.Card.imgSrc}}>
     </div>
 </div>
+
 
 </body>
 </html>
