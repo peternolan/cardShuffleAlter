@@ -26,7 +26,10 @@
 .symbol {
     width: 3vw;
     height: 3vw;
-    alignment: center;
+    top: 1vh;
+    position: relative;
+
+}
 
 }
 
